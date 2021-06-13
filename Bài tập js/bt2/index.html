@@ -1,0 +1,36 @@
+<!-- for  -->
+<script>
+    function tinh_tong(n)
+    {
+        var tong = 0;
+        var number = 0;
+
+        while (number <= n)
+        {
+            if (number % 2 == 0){
+                tong += number;
+            }
+
+            
+            number++;
+        }
+
+        document.write("Tổng số chẵn từ 1 tới " + n + " là: " + tong + "<br/>");
+    }
+    
+</script>
+
+<!-- while -->
+<script>
+function tinh_tong (n) {
+    var tong = 0;
+    for (var i = 0; i <= n; i++) {
+      if (i % 2 == 0) {
+        tong += i;
+      }
+      
+    }
+    document.write("Tổng số chẵn từ 1 tới " + n + " là: " + tong + "<br/>");
+}
+tinh_tong (10)
+</script>
